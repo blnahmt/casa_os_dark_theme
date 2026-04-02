@@ -1,0 +1,99 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    filter: invert(0.91) hue-rotate(180deg) grayscale(0.15) contrast(0.95);
+  }
+  
+  ._fixed-height.is-align-items-center.is-flex.top-bar.navbar,
+  .out-container, .preview-image,
+  .image.is-128x128.b-image-wrapper,
+  .modal-background,
+  .is-dark-bg.is-flex-direction-column.is-flex,
+  .main-content.is-three-quarters.column,
+  .contextmenu-canvas.side-bar,
+  .button.is-text.is-fullwidth, .is-text.button,
+  ._has-text-white,
+  .header-icon, .is-flex-shrink-0.is-24x24.image, .image.is-80x80.b-image-wrapper,
+  .ml-3.mb-3.mr-3.mt-3.is-flex > 
+  .header-icon > .image.is-64x64.b-image-wrapper,
+  .is-flex.has-text-centered > 
+  .is-justify-content-center.is-flex > 
+  .is-relative,.dropdown-menu > 
+  .dropdown-content > .dropdown-item,
+  .is-mobile-modal.is-active.navbar-item.dropdown-menu-animation.dropdown > .dropdown-menu,
+  .is-flex.operation-toolbar,
+  .is-active.is-bottom-left.netowrk-dropdown.dropdown-menu-animation.dropdown,
+  #logs-content,.art-bottom,
+  #terminal-content > .fdark-bg.mt-4.pb-2.pt-2.pl-2.fullScreen,
+  img:not(.stop.image img),
+  video,
+  [class*="no-invert"] {
+    filter: invert(1) hue-rotate(180deg) grayscale(0) contrast(1.1) !important;
+  }
+}
+
+* {
+    border-radius: 6px !important;
+}
+
+.is-mobile-modal.is-active.navbar-item.dropdown-menu-animation.dropdown > .dropdown-menu > .dropdown-content,
+.dropdown-content,
+.dropdown-item.has-text-left.has-text-white,
+.is-active.is-bottom-left.netowrk-dropdown.dropdown-menu-animation.dropdown > .dropdown-menu > .dropdown-content {
+    color-scheme: dark;
+    background: #1c1c1c !important; 
+    color: #e8e8e8 !important; 
+    filter: invert(1) hue-rotate(180deg) !important;
+}
+
+.is-shadow.step4.login-panel {
+    background: #121212 !important; 
+}
+
+/* ======== ÜST BAR ======== */
+.is-flex.top-bar.navbar, .blur-background {
+    background: rgba(20, 20, 20, 0.30) !important; 
+    backdrop-filter: blur(8px) !important; 
+    -webkit-backdrop-filter: blur(8px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+    box-shadow: none !important; 
+}
+
+/* ======== UYGULAMALAR VE WIDGETLAR ======== */
+.widget-panel, .app-card {
+    background: rgba(20, 20, 20, 0.08) !important; 
+    backdrop-filter: blur(8px) !important; 
+    -webkit-backdrop-filter: blur(8px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+    box-shadow: none !important; 
+}
+
+/* ======== UYGULAMA KARTLARI ======== */
+.app-card {
+    padding: 0.5rem !important; 
+}
+
+.app-card .image.is-64x64.b-image-wrapper, 
+.app-card .image.is-80x80.b-image-wrapper {
+    transform: scale(1.35) !important; 
+    margin-bottom: 0.8rem !important; 
+}
+/* ======================================================== */
+
+.is-medium.input {
+    background: rgba(25, 25, 25, 0.4) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.is-rounded.is-primary.is-small.mr-2.button,
+.dropdown-menu-animation.dropdown.app-card-drop.is-active > .dropdown-menu > .dropdown-content > .dropdown-item > .button.is-fullwidth.is-text.button:hover,
+.CodeMirror {
+    background: rgba(42, 42, 42, 0.6) !important; 
+    color: #d1d1d1 !important; 
+    filter: invert(1) hue-rotate(180deg) !important;
+}
+ 
+.is-text.button,
+.is-active.is-bottom-left.netowrk-dropdown.dropdown-menu-animation.dropdown > .dropdown-menu > .dropdown-content > a.dropdown-item {
+    color: #b3b3b3 !important; 
+    filter: invert(1) hue-rotate(180deg) !important;
+}
