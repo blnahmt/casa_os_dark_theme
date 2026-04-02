@@ -30,4 +30,6 @@ These allow you to apply the theme without modifying system files.
 
 ---
 
-**Inspired from:** [github.com/LitCastVlog/CasaOS-DarkMode](https://github.com/LitCastVlog/CasaOS-DarkMode)
+## Credits
+
+**Inspired by & Thanks to:** [github.com/LitCastVlog/CasaOS-DarkMode](https://github.com/LitCastVlog/CasaOS-DarkMode)
